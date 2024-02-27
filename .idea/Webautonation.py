@@ -15,7 +15,7 @@ driver.get("https://app.cloudqa.io/home/AutomationPracticeForm")
 time.sleep(5)
 
 FirstName = driver.find_element_by_id("fname")
-FirstName.send_keys("")
+FirstName.send_keys("Anisha")
 
 LastName = driver.find_element_by_id("lname")
 LastName.send_keys("")
